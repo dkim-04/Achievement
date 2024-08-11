@@ -8,14 +8,19 @@
 
 3.현실의 로봇과 같은 기계에 전이해 현실에서도 과제를 잘 수행할 수 있도록 하는 분야이다.
 
-**(embodied agent)에이전트**
+***(embodied agent)에이전트***
 
  Artificial intelligence system that is designed to interact with the physical world. Have some kind of body or physical form, able to interact with environment through sensors and actuators
 
-**AGI(Artificial intelligence)인공 일반 지능**
-인간과 유사한 지능과 스스로 학습할 수 있는 능력을 갖춘 소프트웨어를 만들려는 이론적 AI연구 분야 (현재 AI기술은 모두 사전 결정된 매개 변수 집합 내에서 작동---예)이미지 인식 및 생성에 대해 학습한 AI모델은 웹사이트 구축 불가능
-‘’’’’’’’’인공지능과 인공 일반 지능의 차이(difference with AI and AGI)
+***AGI(Artificial intelligence)인공 일반 지능***
 
+인간과 유사한 지능과 스스로 학습할 수 있는 능력을 갖춘 소프트웨어를 만들려는 이론적 AI연구 분야 (현재 AI기술은 모두 사전 결정된 매개 변수 집합 내에서 작동
+
+예)이미지 인식 및 생성에 대해 학습한 AI모델은 웹사이트 구축 불가능
+
+----------------------------------------------------------------
+인공지능과 인공 일반 지능의 차이(difference with AI and AGI)
+---
 
 
 
@@ -33,5 +38,5 @@ World models이란?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzc5MDM0OF19
+eyJoaXN0b3J5IjpbNjA1OTIyMzE4XX0=
 -->
