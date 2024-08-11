@@ -1,5 +1,5 @@
 
-#python os module(파이썬 os 모듈)
+# python os module(파이썬 os 모듈)
 -os.mkdir 새로운 한개의 폴더 또는 경로 생성
 -os.makedirs--- ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
 
