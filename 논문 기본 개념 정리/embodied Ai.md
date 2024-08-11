@@ -1,6 +1,11 @@
 # Embodied ai에 대한 포괄적인 조사
-Embodied Ai란?
-시뮬레이터(에이전트가 움직일 수 있는 가상 공간을 만들고 그 안에 현실적인 가상의 실험공간을 만들어주는 프로그램)라는 3d가상환경에 에이전트를 생성해 여러가지 과제를 수행시켜 학습시킨 후 현실의 로봇과 같은 기계에 전이해 현실에서도 과제를 잘 수행할 수 있도록 하는 분야이다.
+##Embodied Ai란?
+
+**시뮬레이터**(에이전트가 움직일 수 있는 가상 공간을 만들고 그 안에 현실적인 가상의 실험공간을 만들어주는 프로그램)
+
+라는 3d가상환경에 에이전트를 생성해 여러가지 과제를 수행시켜 학습시
+
+현실의 로봇과 같은 기계에 전이해 현실에서도 과제를 잘 수행할 수 있도록 하는 분야이다.
 
 (embodied agent)에이전트 Artificial intelligence system that is designed to interact with the physical world. Have some kind of body or physical form, able to interact with environment through sensors and actuators
 
@@ -25,5 +30,5 @@ World models이란?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg5MDQ1NDBdfQ==
+eyJoaXN0b3J5IjpbLTY3NjkxNTIzMF19
 -->
