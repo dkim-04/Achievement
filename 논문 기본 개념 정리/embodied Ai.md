@@ -14,20 +14,14 @@
 
 ***AGI(Artificial intelligence)인공 일반 지능***
 
-인간과 유사한 지능과 스스로 학습할 수 있는 능력을 갖춘 소프트웨어를 만들려는 이론적 AI연구 분야 (현재 AI기술은 모두 사전 결정된 매개 변수 집합 내에서 작동
+인간과 유사한 지능과 스스로 학습할 수 있는 능력을 갖춘 소프트웨어를 만들려는 이론적 AI연구 분야 
 
-예)이미지 인식 및 생성에 대해 학습한 AI모델은 웹사이트 구축 불가능
+(현재 AI기술은 모두 사전 결정된 매개 변수 집합 내에서 작동)
 
 ----------------------------------------------------------------
-인공지능과 인공 일반 지능의 차이(difference with AI and AGI)
----
+##인공지능과 인공 일반 지능의 차이(difference with AI and AGI)
 
-
-
-
-‘’’’’’’’’
-
-MLMs(multi-modal Large models)대형 다중모달 모델
+**MLMs(multi-modal Large models)**대형 다중모달 모델
 Ex) OpenAI’s GPT-4(Large language models{LLM})
 LLM(large language mode)/대형 언어 모델/은 다양한 형태의 입력을 이해하는 것을 할 수 없다. Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본적으로 응답할 수 없음
 다중모달 AI란?
@@ -38,5 +32,5 @@ World models이란?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1OTIyMzE4XX0=
+eyJoaXN0b3J5IjpbMTU1NDg4MDExOF19
 -->
