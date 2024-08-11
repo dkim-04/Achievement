@@ -38,8 +38,11 @@ Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본�
 
 ***World models이란?***
 뇌의 동작 방식과 매우 유사하게 학습을 할 수 있는 딥러닝 방법
+
 **1.비전** 
+
 **2.메모리** 
+
 **3.컨트롤러**
 
  3부분으로 이루어져 있음
@@ -54,5 +57,5 @@ Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1OTg2MDBdfQ==
+eyJoaXN0b3J5IjpbMzg0NTE2NzkwLDY1NTk4NjAwXX0=
 -->
