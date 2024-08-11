@@ -45,7 +45,9 @@ Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본�
 
 **3.컨트롤러**
 
- 3부분으로 이루어져 있음
+ 3부분으로 이루어짐
+
+**각각 아래의 역할 수행**
 
 1.비전---화면 인지 
  
@@ -57,5 +59,5 @@ Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NTE2NzkwLDY1NTk4NjAwXX0=
+eyJoaXN0b3J5IjpbLTU5NTIwMDE5Miw2NTU5ODYwMF19
 -->
