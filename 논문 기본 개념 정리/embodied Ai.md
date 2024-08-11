@@ -21,16 +21,25 @@
 ----------------------------------------------------------------
 ##인공지능과 인공 일반 지능의 차이(difference with AI and AGI)
 
-**MLMs(multi-modal Large models)**대형 다중모달 모델
-Ex) OpenAI’s GPT-4(Large language models{LLM})
-LLM(large language mode)/대형 언어 모델/은 다양한 형태의 입력을 이해하는 것을 할 수 없다. Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본적으로 응답할 수 없음
-다중모달 AI란?
+**MLMs(multi-modal Large models)**/대형 다중모달 모델
+
+**다중모달 AI란?**
 시각,청각을 비롯한 여러 인터페이스를 통해 다양한 채널의 모달리티(양식)를 동시에 받아들여 학습하고 사고하는 AI----인간이 사물을 받아들이는 다양한 방식과 동일하게 학습하는 AI
 
-World models이란?
+
+***LLM(large language mode)***/대형 언어 모델
+
+Ex) OpenAI’s GPT-4(Large language models{LLM})
+ 
+ 다양한 형태의 입력을 이해하는 것을 할 수 없다. 
+
+Ex)(비디오, 텍스트, 손으로 쓴 지시)가 아닌 다른 것에 기본적으로 응답할 수 없음
+
+
+***World models이란?***
 뇌의 동작 방식과 매우 유사하게 학습을 할 수 있는 딥러닝 방법으로, 1)비전 2)메모리 3)컨트롤러의 3부분으로 이루어져 있으며, 비전---화면 인지 메모리---기억 및 예측, 컨트롤러---행동 및 학습 수행///의 구조로 이루어져 있다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDg4MDExOF19
+eyJoaXN0b3J5IjpbLTQ3OTM3NzI5Ml19
 -->
