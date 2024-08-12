@@ -1,5 +1,5 @@
 #section1
-1.논문의 연구 배경
+**1.논문의 연구 배경
 최근 MLMS와 WMS의 등장은 뛰어난 정확도와 상호작용, 추론 기능으로 인해 상당히 주목받아 구체화된 에이전트의 두뇌에 대한 유망한 아키텍처(설계도 혹은 청사진)으로 생각되어 진다. 그러나 MLM 시대의 Embodied AI에 대한 종합적인 조사가 없어 포괄적으로 살펴보게 되었다.
 
 2.연구 대상
@@ -133,5 +133,6 @@ Section7
 Section8
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODQ0NTMwMCwtMzg3MzgyMjU0XX0=
+eyJoaXN0b3J5IjpbLTcyODE0NTY1MiwtOTA4NDQ1MzAwLC0zOD
+czODIyNTRdfQ==
 -->
