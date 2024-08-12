@@ -90,8 +90,10 @@ B.바퀴 달린 로봇과 추적 로봇
 
 *에너지 효율성 크게 향상시킴
 
-'Ex)곤충 모양 로봇, 물고기 모양 로봇'''
+'Ex)곤충 모양 로봇, 물고기 모양 로봇'
+
 ---단점
+
 설계 및 제조 공정 복잡/ 비용 많이 듬
 대규모 생산 및 광범위한 적용 제한됨
 복잡한 운동 메커니즘 및 유연한 재료의 사용으로 인한 내구성과 신뢰성이 극한 환경에서 제한됨
@@ -143,6 +145,6 @@ Section7
 Section8
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNjE1MjE4LC05MDg0NDUzMDAsLTM4Nz
+eyJoaXN0b3J5IjpbLTM2NTc1NzkwLC05MDg0NDUzMDAsLTM4Nz
 M4MjI1NF19
 -->
