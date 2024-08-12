@@ -28,8 +28,14 @@ print(path)
 
 결과
 -------
-
 "folder1/folder2/file.txt
+---------
+## python sys module
+
+
+
+
+
 -------------------------------------------------------------
 ### open() 함수
 - 파일을 열고 파일 객체를 반환하는 함수
@@ -93,6 +99,6 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * * 읽기 쉬움: 코드의 가독성 높임
 *  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYzMDQ0OCwtNTUzNzcxMTEyLDQ1Nj
-A2MTAxNV19
+eyJoaXN0b3J5IjpbLTE0MDA0MDI0NzYsLTE2MTYzMDQ0OCwtNT
+UzNzcxMTEyLDQ1NjA2MTAxNV19
 -->
