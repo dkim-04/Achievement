@@ -3,9 +3,9 @@
 
 
 ## python os module(파이썬 os 모듈)
--os.mkdir 새로운 한개의 폴더 또는 경로 생성
+- os.mkdir 새로운 한개의 폴더 또는 경로 생성
 
--os.makedirs--- ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
+- os.makedirs--- ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
 
 - os.path.isdir--- 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴
 
@@ -33,7 +33,7 @@ print(path)
 -------------------------------------------------------------
 ### open() 함수
 - 파일을 열고 파일 객체를 반환하는 함수
-- 사용후 close)_메서드 호출해 파일 닫아야 함
+- 사용후 close()_메서드 호출해 파일 닫아야 함
 - with 사용하면 자동으로 닫을 수 있음
 
 open(file,mode='r',buffering=-1,encoding=None,newline=None)
@@ -81,5 +81,5 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * * 읽기 쉬움: 코드의 가독성 높임
 *  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDYzMDM4Myw0NTYwNjEwMTVdfQ==
+eyJoaXN0b3J5IjpbMTA5MzMxNzgwOSw0NTYwNjEwMTVdfQ==
 -->
