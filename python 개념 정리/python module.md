@@ -71,8 +71,12 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * f-string
 
 #### % 포맷팅
-- %d -문자열
-- %s -
+- %d -정수
+- %s -문자열
+- %f -소수점
+- %x -16진수
+- %o - 8진수
+- 
 
 ##### .format()
 - 문자열을 포맷팅하는 방법 중 하나
@@ -89,6 +93,6 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * * 읽기 쉬움: 코드의 가독성 높임
 *  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjIyOTIwMSwtNTUzNzcxMTEyLDQ1Nj
+eyJoaXN0b3J5IjpbLTE2MTYzMDQ0OCwtNTUzNzcxMTEyLDQ1Nj
 A2MTAxNV19
 -->
