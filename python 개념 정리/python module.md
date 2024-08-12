@@ -26,22 +26,26 @@ path = os.path.join('folder1', 'folder2', 'file.txt')
 
 print(path)
 
---결과
+결과
+-------
 
 "folder1/folder2/fi.txt
 -------------------------------------------------------------
-open() 함수
---파일을 열고 파일 객체를 반환하는 함수
-사용후 close)_메서드 호출해 파일 닫아야 함
-with 사용하면 자동으로 닫을 수 있음
+### open() 함수
+- 파일을 열고 파일 객체를 반환하는 함수
+- 사용후 close)_메서드 호출해 파일 닫아야 함
+- with 사용하면 자동으로 닫을 수 있음
 
 open(file,mode='r',buffering=-1,encoding=None,newline=None)
-file:열고자 하는 파일의 경로와 이름 나타내기
-mode:사용할 모드,기본값 r(읽기 모드),w(쓰기),a(추가),b(바이너리),t(텍스트),+(읽기와 쓰기 모두 가능) ***모드끼리 조합 가능
-buffering:버퍼링 정첵 설정
-encoding:파일 읽거나 쓸 때 사용할 인코딩
-errors:인코딩 및 디코딩 오류 처리 방식
-newline:개형 문자 어떨게 처리할지 설정
+
+* file:열고자 하는 파일의 경로와 이름 나타내기
+* mode:사용할 모드,기본값 r(읽기 모드),w(쓰기),a(추가),b(바이너리),t(텍스트),+(읽기와 쓰기 모두 가능) 
+* 모드끼리 조합 가능
+
+* buffering:버퍼링 정첵 설정
+* encoding:파일 읽거나 쓸 때 사용할 인코딩
+* errors:인코딩 및 디코딩 오류 처리 방식
+* newline:개형 문자  처리 방식 설정
 
 
 
@@ -61,5 +65,5 @@ newline:개형 문자 어떨게 처리할지 설정
 f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTUzNzc2XX0=
+eyJoaXN0b3J5IjpbMTk0MjE3MTYwMV19
 -->
