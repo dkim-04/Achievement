@@ -160,19 +160,23 @@ Ex)심이삭
 ***2)3D 장면 이해***
 
 #####Section5
+
 구체화된 상호작용
 
-Section6
+######Section6
+
 구체화된 다중 모드 기반 모델 및 구체화된 작업 계획 포함한 구체화된 에이전트
 
 
 Section7
+
 구현된 세계 모델,데이터 수집 및 훈련, 구현된 제어를 포함한 시뮬레이션-실제 적용
 
 
 Section8
+
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ5MTAzNTcsLTM2NTc1NzkwLC05MD
+eyJoaXN0b3J5IjpbLTE5MzU3MDQyODEsLTM2NTc1NzkwLC05MD
 g0NDUzMDAsLTM4NzM4MjI1NF19
 -->
