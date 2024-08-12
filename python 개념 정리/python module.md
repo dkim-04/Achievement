@@ -29,7 +29,7 @@ print(path)
 결과
 -------
 
-"folder1/folder2/fi.txt
+"folder1/folder2/file.txt
 -------------------------------------------------------------
 ### open() 함수
 - 파일을 열고 파일 객체를 반환하는 함수
@@ -81,5 +81,5 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * * 읽기 쉬움: 코드의 가독성 높임
 *  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzMxNzgwOSw0NTYwNjEwMTVdfQ==
+eyJoaXN0b3J5IjpbLTU1Mzc3MTExMiw0NTYwNjEwMTVdfQ==
 -->
