@@ -64,6 +64,7 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 
 
 
+## 포맷팅
 
 ##### .format()
 - 문자열을 포맷팅하는 방법 중 하나
@@ -76,7 +77,9 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 
 #### f-string 문자열
 * f"문자열{변수}문자열"의 형태로 출력된다
-* * 간결함: 기존의 .format()나 %연산자보다 직관
+* * 간결함: 기존의 .format()나 %연산자보다 직관적이고 간결함
+* * 읽기 쉬움: 코드의 가독성 높임
+*  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODcwMTE0OSw0NTYwNjEwMTVdfQ==
+eyJoaXN0b3J5IjpbMTkwMDYzMDM4Myw0NTYwNjEwMTVdfQ==
 -->
