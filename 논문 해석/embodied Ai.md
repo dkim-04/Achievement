@@ -161,22 +161,22 @@ Ex)심이삭
 
 #####Section5
 
-구체화된 상호작용
+*구체화된 상호작용
 
 ######Section6
 
 *구체화된 다중 모드 기반 모델 및 구체화된 작업 계획 포함한 구체화된 에이전트
 
 
-Section7
+#######Section7
 
-구현된 세계 모델,데이터 수집 및 훈련, 구현된 제어를 포함한 시뮬레이션-실제 적용
+*구현된 세계 모델,데이터 수집 및 훈련, 구현된 제어를 포함한 시뮬레이션-실제 적용
 
 
-Section8
+##########Section8
 
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3ODY5NjksLTE5MzU3MDQyODEsLT
-M2NTc1NzkwLC05MDg0NDUzMDAsLTM4NzM4MjI1NF19
+eyJoaXN0b3J5IjpbODg5OTc3OTA0LC0xOTM1NzA0MjgxLC0zNj
+U3NTc5MCwtOTA4NDQ1MzAwLC0zODczODIyNTRdfQ==
 -->
