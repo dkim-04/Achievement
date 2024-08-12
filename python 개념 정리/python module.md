@@ -47,17 +47,16 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * errors:인코딩 및 디코딩 오류 처리 방식
 * newline:개형 문자  처리 방식 설정
 
+------------------------
+## 디렉토리
 
+###파일과 같되 자신의 밑에 자식을 둘 수 있는 파일
 
+**루트 디렉토리**와 **서브 디렉토리**
 
-디렉토리
-
---파일과 같되 자신의 밑에 자식을 둘 수 있는 파일
-
-루트 디렉토리와 서브 디렉토리
-
-루트 디렉토리/ 디스크의 제일 처음 위치
-현재 컴퓨터의 경우 C드라이브 ---루트 디렉토리라고 할 수 있다.
+### 루트 디렉토리
+- 디스크의 제일 처음 위치
+- 현재 컴퓨터의 경우 C드라이브 ---루트 디렉토리라고 할 수 있다.
 루트 밑에 있는 디렉토리--서브 디렉토리
 
 
@@ -65,5 +64,5 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjE3MTYwMV19
+eyJoaXN0b3J5IjpbODk4MTU0MDI2XX0=
 -->
