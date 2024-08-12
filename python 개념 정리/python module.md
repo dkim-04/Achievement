@@ -1,0 +1,55 @@
+# 파이썬 모듈 함수
+
+
+
+## python os module(파이썬 os 모듈)
+-os.mkdir 새로운 한개의 폴더 또는 경로 생성
+
+-os.makedirs--- ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
+
+- os.path.isdir--- 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴해준다
+- os. path.isfile-- 위의 비슷한 역할을 하지만 파일 형식이다.
+파일 확장자(filename extension)--- 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분(확장자라고 부름) 운영체제들은 파일 이름에서 (.)뒤에 나타나는 부분을 확장자로 인식
+-os.path.splitext---  확장자와 그 전까지의 파일 이름을 분리해 반환
+-os.path.basename---path의 기본 이름을 반환합니다.
+-os.path.join---여러 개의 경로를 하나의 경로로 결합할 때 사용
+ex)
+import os
+path = os.path.join('folder1', 'folder2', 'file.txt')
+print(path)
+--결과
+"folder1/folder2/fi.txt
+-------------------------------------------------------------
+open() 함수
+--파일을 열고 파일 객체를 반환하는 함수
+사용후 close)_메서드 호출해 파일 닫아야 함
+with 사용하면 자동으로 닫을 수 있음
+
+open(file,mode='r',buffering=-1,encoding=None,newline=None)
+file:열고자 하는 파일의 경로와 이름 나타내기
+mode:사용할 모드,기본값 r(읽기 모드),w(쓰기),a(추가),b(바이너리),t(텍스트),+(읽기와 쓰기 모두 가능) ***모드끼리 조합 가능
+buffering:버퍼링 정첵 설정
+encoding:파일 읽거나 쓸 때 사용할 인코딩
+errors:인코딩 및 디코딩 오류 처리 방식
+newline:개형 문자 어떨게 처리할지 설정
+
+
+
+
+디렉토리
+
+--파일과 같되 자신의 밑에 자식을 둘 수 있는 파일
+
+루트 디렉토리와 서브 디렉토리
+
+루트 디렉토리/ 디스크의 제일 처음 위치
+현재 컴퓨터의 경우 C드라이브 ---루트 디렉토리라고 할 수 있다.
+루트 밑에 있는 디렉토리--서브 디렉토리
+
+
+
+f-string 문자열
+f"문자열{변수}문자열"의 형태로 출력된다
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMzMjE4NDQ0N119
+-->
