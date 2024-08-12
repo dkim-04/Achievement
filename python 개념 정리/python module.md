@@ -7,17 +7,27 @@
 
 -os.makedirs--- ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
 
-- os.path.isdir--- 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴해준다
+- os.path.isdir--- 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴
+
 - os. path.isfile-- 위의 비슷한 역할을 하지만 파일 형식이다.
-파일 확장자(filename extension)--- 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분(확장자라고 부름) 운영체제들은 파일 이름에서 (.)뒤에 나타나는 부분을 확장자로 인식
--os.path.splitext---  확장자와 그 전까지의 파일 이름을 분리해 반환
--os.path.basename---path의 기본 이름을 반환합니다.
--os.path.join---여러 개의 경로를 하나의 경로로 결합할 때 사용
+-----
+파일 확장자(filename extension)--- 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분(확장자라고 부름)  운영체제들은 파일 이름에서 (.)뒤에 나타나는 부분을 확장자로 인식
+
+- os.path.splitext---  확장자와 그 전까지의 파일 이름을 분리해 반환
+
+- os.path.basename--- path의 기본 이름을 반환합니다.
+
+- os.path.join--- 여러 개의 경로를 하나의 경로로 결합할 때 사용
+
 ex)
-import os
+ import os
+
 path = os.path.join('folder1', 'folder2', 'file.txt')
+
 print(path)
+
 --결과
+
 "folder1/folder2/fi.txt
 -------------------------------------------------------------
 open() 함수
@@ -51,5 +61,5 @@ newline:개형 문자 어떨게 처리할지 설정
 f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjE4NDQ0N119
+eyJoaXN0b3J5IjpbMjA1MTUzNzc2XX0=
 -->
