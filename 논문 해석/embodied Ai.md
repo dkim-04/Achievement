@@ -1,4 +1,4 @@
-#section1
+# section1
 **1.논문의 연구 배경**
 
 최근 MLMS와 WMS의 등장은 뛰어난 정확도와 상호작용, 추론 기능으로 인해 상당히 주목받아 구체화된 에이전트의 두뇌에 대한 유망한 아키텍처(설계도 혹은 청사진)으로 생각되어 진다. 그러나 MLM 시대의 Embodied AI에 대한 종합적인 조사가 없어 포괄적으로 살펴보게 되었다.
@@ -21,7 +21,7 @@
 PAGE 2
 
 
-##Section2
+## Section2
 
 ***다양한 구현 로봇***
 
@@ -110,7 +110,7 @@ B.바퀴 달린 로봇과 추적 로봇
 
 ----------------------------
 
-###Section3
+### Section3
 
 일반 및 실제 장면 구현 시뮬레이터
 
@@ -135,7 +135,7 @@ Ex)심이삭
 
  -이를 위해 현실 세계에서 데이터를 수집해 실제 환경을 기반으로 한 시뮬레이터를 만들게 됨
 
-####Section4
+#### Section4
 
 능동 시각적 인식, 3D 시각적 접지 , 시각적 언어 탐색 및 비시각적 인식 포함된 구체적 인식
 
@@ -159,11 +159,11 @@ Ex)심이삭
 
 ***2)3D 장면 이해***
 
-#####Section5
+##### Section5
 
 *구체화된 상호작용
 
-######Section6
+###### Section6
 
 *구체화된 다중 모드 기반 모델 및 구체화된 작업 계획 포함한 구체화된 에이전트
 
@@ -177,6 +177,6 @@ Ex)심이삭
 
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5OTc3OTA0LC0xOTM1NzA0MjgxLC0zNj
-U3NTc5MCwtOTA4NDQ1MzAwLC0zODczODIyNTRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTY0MzA4OTAsLTE5MzU3MDQyODEsLT
+M2NTc1NzkwLC05MDg0NDUzMDAsLTM4NzM4MjI1NF19
 -->
