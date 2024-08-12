@@ -14,7 +14,7 @@
 
 ⦁	가상과 현실 구현에서의 MLM의 복잡성
 
-⦁	구현된 Ai에서의 현재의 한계와 발전 과제
+   ⦁	구현된 Ai에서의 현재의 한계와 발전 과제
 
 ---------------------------------------
 PAGE 2
@@ -133,5 +133,5 @@ Section7
 Section8
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzM4MjI1NF19
+eyJoaXN0b3J5IjpbLTkwODQ0NTMwMCwtMzg3MzgyMjU0XX0=
 -->
