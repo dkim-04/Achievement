@@ -165,7 +165,7 @@ Ex)심이삭
 
 ######Section6
 
-구체화된 다중 모드 기반 모델 및 구체화된 작업 계획 포함한 구체화된 에이전트
+*구체화된 다중 모드 기반 모델 및 구체화된 작업 계획 포함한 구체화된 에이전트
 
 
 Section7
@@ -177,6 +177,6 @@ Section8
 
 기대되는 연구의 방향성
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU3MDQyODEsLTM2NTc1NzkwLC05MD
-g0NDUzMDAsLTM4NzM4MjI1NF19
+eyJoaXN0b3J5IjpbLTE0OTA3ODY5NjksLTE5MzU3MDQyODEsLT
+M2NTc1NzkwLC05MDg0NDUzMDAsLTM4NzM4MjI1NF19
 -->
