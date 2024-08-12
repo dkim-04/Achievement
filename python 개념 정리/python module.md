@@ -63,8 +63,16 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 
 
 
-f-string 문자열
+
+
+##### .format()
+- 문자열을 포맷팅하는 방법 중 하나
+
+
+
+
+#### f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MDYxMDE1XX0=
+eyJoaXN0b3J5IjpbLTI2MzE2NDUyNiw0NTYwNjEwMTVdfQ==
 -->
