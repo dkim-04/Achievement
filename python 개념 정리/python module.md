@@ -70,10 +70,12 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 
 ###### 장점
 -  유연성: 위치 인수, 이름 인수 , 딕셔너리등 모두 사용 가능해 다양한 포맷팅 요구 충족
+- 포맷팅 옵션: 숫자,날짜, 문자열 등 다양한 형태로 포맷팅할 수 있는 풍부한 옵션 제공
+- ㅎ
 
 
 #### f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTAzMzIxNDgsNDU2MDYxMDE1XX0=
+eyJoaXN0b3J5IjpbLTI2NDU3MzE4Miw0NTYwNjEwMTVdfQ==
 -->
