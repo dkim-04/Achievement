@@ -56,13 +56,15 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 
 ### 루트 디렉토리
 - 디스크의 제일 처음 위치
-- 현재 컴퓨터의 경우 C드라이브 ---루트 디렉토리라고 할 수 있다.
-루트 밑에 있는 디렉토리--서브 디렉토리
+- 현재 컴퓨터의 경우 C드라이브 ---루트 디렉토리라고 할 수 있음
+
+### 서브 디렉토리
+- 루트 밑에 있는 디렉토리==서브 디렉토리
 
 
 
 f-string 문자열
 f"문자열{변수}문자열"의 형태로 출력된다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MTU0MDI2XX0=
+eyJoaXN0b3J5IjpbNDU2MDYxMDE1XX0=
 -->
