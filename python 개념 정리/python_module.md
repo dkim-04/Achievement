@@ -10,10 +10,8 @@
 - os.path.isdir--- 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴
 
 - os. path.isfile-- 위의 비슷한 역할을 하지만 파일 형식이다.
------
-파일 확장자(filename extension)--- 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분(확장자라고 부름)  운영체제들은 파일 이름에서 (.)뒤에 나타나는 부분을 확장자로 인식
 
-- os.path.splitext---  확장자와 그 전까지의 파일 이름을 분리해 반환
+- - os.path.splitext---  확장자와 그 전까지의 파일 이름을 분리해 반환
 
 - os.path.basename--- path의 기본 이름을 반환합니다.
 
@@ -27,8 +25,10 @@ path = os.path.join('folder1', 'folder2', 'file.txt')
 print(path)
 
 결과
--------
 "folder1/folder2/file.txt
+-----
+파일 확장자(filename extension)--- 컴퓨터 파일의 이름에서 파일의 종류와 그 역할을 표시하기 위해 사용하는 부분(확장자라고 부름)  운영체제들은 파일 이름에서 (.)뒤에 나타나는 부분을 확장자로 인식
+
 ---------
 ## python sys module
 
