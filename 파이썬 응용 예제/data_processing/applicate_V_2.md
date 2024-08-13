@@ -56,7 +56,7 @@ destination_folder = 'C:/Users/kim/P_Ver1/P_2/processed'
 search_phrase='checked_files_'
 
 copy_files_with_phrase(folder_path,destination_folder,search_phrase)
-```
+
 
 # def list_csv_files(folder_path):
 
@@ -80,3 +80,4 @@ copy_files_with_phrase(folder_path,destination_folder,search_phrase)
 #         print(f"오류 발생: {e}")
 
 # list_csv_files(folder_path)
+```
