@@ -1,3 +1,4 @@
+```ruby
 import time
 
 import sys
@@ -10,9 +11,7 @@ def printProgressBar(iteration, total, prefix='Progress', suffix='Complete', dec
     
     filledLength = int(length * iteration // total) ## 전체 과정 반복 중 progressbar가 얼마나 차야 하는지를 보여주는 역할
     
-    bar = fill * filledLength + '-' * (length - filledLength) 
-    
-    #█*filledLength + /"-"*(전체 length-채워져 있는 영역)=█*filledLength ////"-"* 안채워져 있는 부분
+    bar = fill * filledLength + '-' * (length - filledLength)  #█*filledLength + /"-"*(전체 length-채워져 있는 영역)=█*filledLength ////"-"* 안채워져 있는 부분
     
     print(f'\r{prefix} |{bar}| {percent}% {suffix}', end='\r')
     
@@ -33,3 +32,4 @@ def process_large_file(file_path):
             time.sleep(0.01)
             # progrssbar 업데이트
             printProgressBar(i, total_lines, prefix='Processing', suffix='Complete', length=50)
+```
