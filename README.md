@@ -9,6 +9,10 @@
 
 **4.논문 내용 정리**
 
+**5.마크 다운 형식 숙지**
+
+**6.15일 전까지 Emobodied Ai 논문 간단하게라도 정리 하기**
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTQxNzM0ODA5NiwxNDg4NjkzMjQsLTMwOT
 c4OTUxNiwxNDg4NjkzMjRdfQ==
