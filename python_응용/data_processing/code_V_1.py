@@ -61,25 +61,4 @@ search_phrase='checked_files_'
 copy_files_with_phrase(folder_path,destination_folder,search_phrase)
 
 
-# def list_csv_files(folder_path):
 
-#     try:
-#         # 폴더 내 모든 파일 및 디렉토리 가져오기
-#         files = os.listdir(folder_path)
-        
-#         # CSV 파일만 필터링
-#         csv_files = [f for f in files if f.lower().endswith('.csv')]
-        
-#         if csv_files:
-#             print(f"총 {len(csv_files)}개의 CSV 파일이 발견되었습니다:")
-#             for filename in csv_files:
-#                 print(filename)
-#         else:
-#             print("폴더 안에 CSV 파일이 없습니다.")
-    
-#     except FileNotFoundError:
-#         print(f"지정된 폴더가 존재하지 않습니다: {folder_path}")
-#     except Exception as e:
-#         print(f"오류 발생: {e}")
-
-# list_csv_files(folder_path)
