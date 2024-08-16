@@ -7,7 +7,7 @@ def read_and_process_file(file_path):
     # 파일명에서 영문 부분 추출
     file_name = os.path.splitext(os.path.basename(file_path))[0]
     # 필요한 열만 추출
-    df = df[['TIME', 'STEP', 'STEP_NAME', 'VALUE']]
+    df = df[['TIME', 'VALUE']]
     # 열 이름 변경
     df.rename(columns={'VALUE': file_name}, inplace=True)
     return df
@@ -28,7 +28,7 @@ def merge_csv_files(folder_path, output_file):
     merged_df = dataframes[0]
     
     for df in dataframes[1:]:
-        merged_df = pd.merge(merged_df, df, on=['TIME', 'STEP', 'STEP_NAME'], how='outer', suffixes=('', '_dup'))
+        merged_df = pd.merge(merged_df, df, on=['TIME'], how='outer', suffixes=('', '_dup'))
     
     # 중복된 열 처리
     # 동일한 열을 하나로 병합
@@ -43,7 +43,7 @@ def merge_csv_files(folder_path, output_file):
     merged_df.sort_values(by='TIME', inplace=True)
 
     #사용자 지정 헤더
-    user_defined_header=['TIME','STEP','STEP_NAME','GAS_DCS','GAS_F2','GAS_N2_1','GAS_N2_2','GAS_N2_3','GAS_N2_4','GAS_N2_LOADING_AREA','GAS_N2_NR','GAS_NH3','PRESSURE_APC_ANGLE','PRESSURE_VG1','PRESSURE_VG2','TEMP_PROFILE_1','TEMP_PROFILE_2','TEMP_PROFILE_3','TEMP_PROFILE_4','TEMP_PROFILE_5']
+    user_defined_header=['TIME','GAS_DCS','GAS_F2','GAS_N2_1','GAS_N2_2','GAS_N2_3','GAS_N2_4','GAS_N2_LOADING_AREA','GAS_N2_NR','GAS_NH3','PRESSURE_APC_ANGLE','PRESSURE_VG1','PRESSURE_VG2','TEMP_PROFILE_1','TEMP_PROFILE_2','TEMP_PROFILE_3','TEMP_PROFILE_4','TEMP_PROFILE_5']
     
     if len(user_defined_header) != len(merged_df.columns):
         print("사용자 지정 헤더 길이가 데이터프레임의 열수와 맞지 않음")
