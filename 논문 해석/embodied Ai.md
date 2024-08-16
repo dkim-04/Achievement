@@ -220,7 +220,7 @@ Ex)심이삭
 
    
 **2. 1단계 3D 시각적 접지 방법**
-
+* 
 
 #### c.시각적 언어 탐색
 **VLN(Visual Laguage Navigation)**
