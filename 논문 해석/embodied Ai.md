@@ -444,10 +444,24 @@ Ex)심이삭
 
 
 ### Section7
+#### SIM-to-Real adaption
+-시뮬레이션된 환경에서 학습한 기능이나 행동을 실제 시나리오로 전송하는 프로세스
+
+**이를 위한 구성요소**
+1) Embodied world model
+2) 데이터 수집 및 학습
+3) 구현된 제어 알고리즘
 
 
+##### A.Embodied World model
+1) Generation-based Methods
+2) prediction-based Methods
+3) knowledge-driven Methods
+
+
+##### B.데이터 수집 및 학습
 ### Section8
-
+- **Conclusion**
 기대되는 연구의 방향성
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMjkyNTIzNjYsLTE5MzU3MDQyODEsLT
