@@ -55,7 +55,7 @@ def copy_files_with_phrase(folder_path,destination_folder,search_phrase):
 
 
 folder_path='/mnt/c/Users/kim/P_Ver1/P_2/data'
-destination_folder = '/mnt/c/Users/kim/P_Ver1/P_2/processed'
+destination_folder = input("최종 파일들의 폴더 경로를 나타내시오:")
 search_phrase='checked_files_'
 
 copy_files_with_phrase(folder_path,destination_folder,search_phrase)
