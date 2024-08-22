@@ -19,7 +19,7 @@ def plot_and_save_histograms(file_path, output_folder, columns):
         plt.xlabel(column)
         plt.ylabel('Frequency')
         plt.grid(True)
-
+# 이를 png파일로 저장 후 output_file에 저장
         output_file = os.path.join(output_folder, f'{column}_histogram.png')
         plt.savefig(output_file)
         plt.close()
