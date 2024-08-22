@@ -31,12 +31,12 @@ def copy_files_with_phrase(folder_path,destination_folder,search_phrase):
 
         if csv_files:
             print(f"총 {len(csv_files)}개의 파일이 발견되었습니다:")
-
+            # 특정 이름의 csv 파일들으 새로운 위치의 폴더로 경로 변경
             for filename in csv_files:
                 src_path=os.path.join(folder_path,filename)
                 dst_path=os.path.join(destination_folder,filename)
                 
-                
+                # 복사해서 새로운 폴더에 넣기
                 try:
                     shutil.copy(src_path,dst_path)
                     print(f"파일 복사됨:{filename}->{dst_path}")
@@ -54,8 +54,8 @@ def copy_files_with_phrase(folder_path,destination_folder,search_phrase):
         
 
 
-folder_path='/mnt/c/Users/kim/P_Ver1/P_2/data'
-destination_folder = input("최종 파일들의 폴더 경로를 나타내시오:")
+folder_path= input("csv 파일들이 있는 폴더의 경로를 입력하시오:")
+destination_folder = input("최종 파일들이 저장될 폴더 경로를 입력하시오:")
 search_phrase='checked_files_'
 
 copy_files_with_phrase(folder_path,destination_folder,search_phrase)
