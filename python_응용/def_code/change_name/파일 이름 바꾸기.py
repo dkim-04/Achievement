@@ -1,22 +1,28 @@
 import os
 import pandas as pd
 import shutil
-import logging
-logging.debug("info log")
-folder_path='C:/Users/kim/P_Ver1/P_2/data' # 탐색할 폴더의 경로
+folder_path=input('csv파일들이 있는 폴더의 경로를 입력하시오:') # 탐색할 폴더의 경로
+if not os.path.isdir(folder_path):
+    print("올바른 폴더 경로가 아닙니다. 다시 시도하세요:")
+else:
+    
 search_phrase="checked_files_"
 
 def change_name():
     # 루트 경로로 부터 하위 디렉토리 및 파일들 탐색
     for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            #파일 형식이 csv이면, 
-            if file.endswith('.csv'):
-                old_file_path=os.path.join(root,file) #현재 파일의 기존 경로 생성
-                new_file_name=f"checked_files_{file}" # 새로운 파일 이름 생성할 때 기존파일 앞에 'checked_files_' 추가
-                new_file_path= os.path.join(root,new_file_name)  #새 파일 경로 생성
-                os.rename(old_file_path,new_file_path)  #기존 파일을 새 파일 이름으로 변경
-                print(f"{new_file_name},,,,,,,{new_file_path}")
+            folder_path=input('csv파일들이 있는 폴더의 경로를 입력하시오:') # 탐색할 폴더의 경로
+            if not os.path.isdir(folder_path):
+            print("올바른 폴더 경로가 아닙니다. 다시 시도하세요:")
+            else:
+                for file in files:
+                    #파일 형식이 csv이면, 
+                    if file.endswith('.csv'):
+                    old_file_path=os.path.join(root,file) #현재 파일의 기존 경로 생성
+                    new_file_name=f"checked_files_{file}" # 새로운 파일 이름 생성할 때 기존파일 앞에 'checked_files_' 추가
+                    new_file_path= os.path.join(root,new_file_name)  #새 파일 경로 생성
+                    os.rename(old_file_path,new_file_path)  #기존 파일을 새 파일 이름으로 변경
+                    print(f"{new_file_name},,,,,,,{new_file_path}")
 
 
 
