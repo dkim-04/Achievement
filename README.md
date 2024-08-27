@@ -27,8 +27,5 @@
 1. embodied Ai와 a path to intelligence 논문 비교 부분 작성
 2. numpy 라이브러리에 대해서 이해 후 정리
 3. 코드트리 15지문 작성
+4. 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzM0ODA5NiwxNDg4NjkzMjQsLTMwOT
-c4OTUxNiwxNDg4NjkzMjRdfQ==
--->
