@@ -270,4 +270,4 @@
  
 
 #### 이 논문은 아래의 링크를 통해 볼수 있다
-[논문 PDF 보기](a path towards machine intellingence.pdf)
+[논문 PDF 보기](논문 해석/path_to_machine_learning/Thesis_for_machine_learning.pdf)
