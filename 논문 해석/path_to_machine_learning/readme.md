@@ -270,4 +270,4 @@
  
 
 #### 이 논문은 아래의 링크를 통해 볼수 있다
-[논문 PDF 보기](논문 해석/path_to_machine_learning/Thesis_for_machine_learning.pdf)
+[논문 PDF 보기]([논문 해석/path_to_machine_learning/Thesis_for_machine_learning.pdf](https://github.com/dkim-04/Achievement/blob/b828fecffbb596bfea0269285bc933685728e3a9/%EB%85%BC%EB%AC%B8%20%ED%95%B4%EC%84%9D/path_to_machine_learning/Thesis_for_machine_learning.pdf))
