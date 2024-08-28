@@ -42,29 +42,36 @@
 ### 표준 라이브러리 종류
 
 #### python os module(파이썬 os 모듈)
-1. 파일 및 디렉토리 조작:
-- os.mkdir 새로운 한개의 폴더 또는 경로 생성
 
-- os.makedirs: ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
+##### 목적과 용도
+ - **파일 및 디렉토리 관리
+ - 환경 변수: 환경 변수를 가져오거나 생성 가능
+ - 경로 조작
+ - 프로세스 제어
 
-- os.path.isdir: 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴
 
-- os.remove(): v파일 삭제
+1.. 파일 및 디렉토리 조작:
+ - os.mkdir 새로운 한개의 폴더 또는 경로 생성
 
-- os. rmdir(), os.rmovedirs(): 디렉토리 삭제
+ - os.makedirs: ./a/b/c처럼 원하는 만큼 디렉토리 생성 가능
 
-- os. path.isfile: 위의 비슷한 역할을 하지만 파일 형식이다.
+ - os.path.isdir: 디렉토리 형식의 파일의 존재 여부를 확인하고 그에 따라 존재하면 참, 반대면 거짓을 리턴
 
-- os.path.splitext:  확장자와 그 전까지의 파일 이름을 분리해 반환
+ - os.remove(): v파일 삭제
 
-- os.path.basename: path의 기본 이름을 반환합니다.
+ - os. rmdir(), os.rmovedirs(): 디렉토리 삭제
+
+ - os. path.isfile: 위의 비슷한 역할을 하지만 파일 형식이다.
+
+ - os.path.splitext:  확장자와 그 전까지의 파일 이름을 분리해 반환
+
+ - os.path.basename: path의 기본 이름을 반환합니다.
 2. 경로 관련 기능:
-- os.path.join: 여러 개의 경로를 하나의 경로로 결합할 때 사용
+ - os.path.join: 여러 개의 경로를 하나의 경로로 결합할 때 사용
 
-ex)
  import os
 
-path = os.path.join('folder1', 'folder2', 'file.txt')
+ path = os.path.join('folder1', 'folder2', 'file.txt')
 
 print(path)
 
