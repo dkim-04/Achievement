@@ -25,7 +25,7 @@
 
 8/28일 오늘 해야 할것
 
-1. [] Embodied ai와 a path to machine learning 그림으로 쉽게 정리
+1. [x] Embodied ai와 a path to machine learning 그림으로 쉽게 정리
 2. [] 반도체 데이터 전처리 과정중 데이터 값 받아 통합 정리후 png파일로 정리
 3. []따로 하고 있던 코드트리 15지문
 4. [] 응용 부분에 main 함수 추가
