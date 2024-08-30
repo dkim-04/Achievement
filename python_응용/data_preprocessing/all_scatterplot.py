@@ -57,4 +57,7 @@ y_columns = ['GAS_DCS', 'GAS_F2', 'GAS_N2_1', 'GAS_N2_2', 'GAS_N2_3', 'GAS_N2_4'
 output_image_path = './산점도_data/ALL/전체_산점도.png'
 
 # 산점도 생성 및 저장
-plot_scatter_overlay(file_path, 'TIME', y_columns, output_image_path)
+if __name__="__main__"
+    plot_scatter_overlay(file_path, 'TIME', y_columns, output_image_path)
+else:
+    print("모듈 import 됨")
