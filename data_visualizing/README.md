@@ -1,4 +1,4 @@
-# DATA_visualizing
+# DATA_visualization
 - 이 레피스토리는 데이터 시각화의 여러 개념 중 내가 알아본 것에 대해서 기록하고 기억하기 위한 레피스토리이다.
 
 ## 히스토그램
