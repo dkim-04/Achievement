@@ -26,5 +26,7 @@ def check_word_in_file(file_path, phrase):
             
        
                 
-    
-check_word_in_file(folder_path, search_phrase)
+if __name__=="main":
+    check_word_in_file(folder_path, search_phrase)
+else:
+    print("모듈이 import 되있다")
