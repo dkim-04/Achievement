@@ -55,4 +55,5 @@ def merge_csv_files(folder_path, output_file):
 
 folder_path = './data'  # CSV 파일이 위치한 폴더 경로
 output_file = 'semi_data.csv'  # 출력할 파일명(.csv붙여야 함)
-merge_csv_files(folder_path, output_file)
+if __name__='__main__':
+    merge_csv_files(folder_path, output_file)
