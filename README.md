@@ -24,8 +24,7 @@
 
 9/2일 오늘 해야 할것
 
-1. [x] Embodied ai와 a path to machine learning 그림 피드백 정리
+1. [] Embodied ai와 a path to machine learning 그림 피드백 정리
 2. [ ] 반도체 데이터 전처리 과정중 데이터 값 csv 치환 후 하나의 csv 통일 후 그 파일을 다시 boxplot으로 나타내기
-3. [x]따로 하고 있던 코드트리 15지문
-4. [x]datetime 라이브러리에 대해 어떤 형식으로 적용하는지 알아보고 기재
-5. [x]환경변수 정리 및 기재 후 SSH에 대해 추가적인 정리
+3. [ ]따로 하고 있던 코드트리 15지문
+4. [ ]ppt에 그림정리 올리기
