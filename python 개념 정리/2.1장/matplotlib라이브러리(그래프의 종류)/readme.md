@@ -5,6 +5,7 @@
 - 2D 플로팅에 강점을 가지고, 다양한 형태의 시각화를 지원
 ## 1. plot()
 - 선 그래프 그릴 때 사용. 데이터 포인트들을 선으로 연결
+
 Ex) ![image](https://github.com/user-attachments/assets/41653410-33e3-44a0-af46-d0a2c06935ff)
 
 
