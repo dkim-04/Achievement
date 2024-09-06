@@ -33,6 +33,7 @@
 실리콘 원석을 덩어리로 만든 것=잉곳
 잉곳을 얇게 슬라이스한 것=실리콘 판
 실리콘 판을 연마+ 세정해 얇고 깨끗한 형태로 변환= 웨이퍼
+
 ![image](https://github.com/user-attachments/assets/31dcbbd6-8dc1-4e97-b364-e97f7f5bdcf3)
 
 ### 2. 회로 설계
