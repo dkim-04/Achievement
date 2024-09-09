@@ -13,5 +13,5 @@
 - matplotlib 그래프 종류
 ## 2.2장
 - wsl과 window 운영체제
-(보충 필요): 보충 이후 삭제 예정
 - 리눅스란
+- shell 스크립트와 python 스크립트
