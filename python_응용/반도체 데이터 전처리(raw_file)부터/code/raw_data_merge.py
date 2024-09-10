@@ -1,4 +1,17 @@
-﻿## 전체 파일을 csv로 변환후 하나의 파일로 통합하는 코드
+## sh 스크립트로 표현하면 어떻게 될까?
+
+```
+#!/bin/bash
+
+python_script_path="/mnt/c/Users/kim/P_Ver1/data_semicoductor/raw_data/code/raw_data_merge.py"
+python3 "$python_script_path"
+```
+
+
+
+
+
+## 전체 파일을 csv로 변환후 하나의 파일로 통합하는 코드
 import os
 import pandas as pd 
 
