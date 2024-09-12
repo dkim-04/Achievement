@@ -9,6 +9,18 @@
 3. 시스템 전역 패키지 오염 방지
 4. 버전 관리 편리성
 5. 배포 준비에 유리
+6. wsl과 windows 파일 시스템 분리
 
 
-## 
+# 2. wsl 가상환경 다운로드
+
+## 과정 코드
+1. pythn3 -m venv myenv
+2. source myenv/bin/activate
+3. pip install django
+4. (프로젝트 생성): django-admin startproject myproject
+5. cd myproject
+6. (앱 생성): python3 manage.py startapp myapp
+
+
+ㅊㄴ![image](https://github.com/user-attachments/assets/65ce9d45-d699-42a7-97d0-4078e938d77d)
