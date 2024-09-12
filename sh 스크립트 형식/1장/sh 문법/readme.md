@@ -25,4 +25,14 @@ echo $NAME
 
 ex)
 ``` ruby
-if wh
+if [조건]; then
+elif
+else
+fi
+```
+
+3. 반복문
+- for 변수 in 리스트; do
+
+4. 함수
+- 함수를 정의하며 호출하여 스크립트 재사용
