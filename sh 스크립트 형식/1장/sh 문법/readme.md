@@ -18,3 +18,11 @@ ex)
 Name='John'
 echo $NAME
 ```
+
+### 2. 조건문(if문)
+- if 문은 조건을 확인하고 그에 따른 명령 실행
+
+
+ex)
+``` ruby
+if wh
