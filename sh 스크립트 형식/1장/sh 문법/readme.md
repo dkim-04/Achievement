@@ -19,6 +19,13 @@ Name='John'
 echo $NAME
 ```
 
+![image](https://github.com/user-attachments/assets/737e9dc1-4603-4b74-bfcd-e58eb628c69e)
+
+
+![image](https://github.com/user-attachments/assets/b5180e7c-8afc-465b-aa6d-515f517ff097)
+
+
+
 ### 2. 조건문(if문)
 - if 문은 조건을 확인하고 그에 따른 명령 실행
 
@@ -30,6 +37,8 @@ elif
 else
 fi
 ```
+
+![image](https://github.com/user-attachments/assets/d7d63cf9-d05a-48ba-b7e8-7fecc778d765)
 
 ### 3. 반복문
 - for 변수 in 리스트; do
@@ -43,6 +52,10 @@ fi
 - (>) 출력을 파일로 리다이렉션(덮어쓰기)
 - (>>) 출력을 파일에 추가
 - (<) 파일에서 입력 읽기
+
+
+
+
 
 ### 6. 파이프
 - 한 명령의 출력을 다른 명령의 입력으로 연결
