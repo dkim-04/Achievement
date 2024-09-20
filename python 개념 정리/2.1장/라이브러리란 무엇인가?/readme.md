@@ -187,7 +187,7 @@ Numpy의 주요 기능 및 특징
     - 정수 난수:numpy.random.randint()
     - 특정 분포 난수: numpy.random.normal(), numpy.random.uniform(),
 
-#### python pandas 모듈
+#### python pandas 라이브러리
 - Pandas는 Python 프로그래밍 언어에서 데이터 분석과 조작을 위한 오픈 소스 라이브러리이다
 - pyhon Data analysis library의 약자로 테이블 형식의 데이터를 다루는 데 최적화 되어 있음
 - 대용량의 데이터 세트를 쉽고 효율적으로 조직할 수 있는 데이터 구조와 함수들 제공
@@ -205,7 +205,7 @@ Numpy의 주요 기능 및 특징
 4. 시간 시계열 데이터 처리
 - 날짜 및 시간 데이터를 처리하고 분석하는데 강력한 기능 제공
 
-**Pandas 모듈의 창시자**
+**Pandas 라이브러리의 창시자**
 
 * 2008년에 웨스 맥키니에 의해 처음 개발됨.
 * 당시 그는 금융 데이터 분석을 보다 쉽게 처리할 수 있는 도구를 필요로 했고, 이를 위해 Python에서 강력한 데이터 분석 기능을 제공하는 라이브러리를 만들게 되었다
@@ -263,7 +263,4 @@ open(file,mode='r',buffering=-1,encoding=None,newline=None)
 * * 간결함: 기존의 .format()나 %연산자보다 직관적이고 간결함
 * * 읽기 쉬움: 코드의 가독성 높임
 *  * 성능: 다른 포맷팅 방법들보다 더 빠르게 작동함
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA0MDI0NzYsLTE2MTYzMDQ0OCwtNT
-UzNzcxMTEyLDQ1NjA2MTAxNV19
--->
+
