@@ -15,15 +15,25 @@
 
 ## 배터리 팩
 ![image](https://github.com/user-attachments/assets/18c82b1a-3417-4a40-bcd5-1db5a4072547)
-배터리 셀-배터리 모듈-배터리 팩
 
-- 모듈
+셀-모듈-배터리 팩
+
+- 모듈(수많은 셀, 온도 센서,전압 측정기,절연 플레이트 등으로 구성)
+- 전압과 온도 센싱 가능
 ![image](https://github.com/user-attachments/assets/f1d5b2b1-09da-4f56-bc88-44f0d47d76aa)
 
-- 팩
+- 배터리 팩(모듈들과 BMS,냉각 장치와 같은 보조 장치들로 구성)
 ![image](https://github.com/user-attachments/assets/b4aa31cd-46c9-4f95-ae07-83f1a57efdd8)
 
-- BMS
+- BMS(팩에서 가장 핵심적인 부품)
+- 전압, 전류, 온도 이상을 감지할 경우 충전과 방전을 중단시키는 등의 안전장치가 포함된 장치
+- 차량과 배터리 소프트웨어 간의 원할한 통신 형성해 배터리 교체 시기와 문제를 사전에 예측
 ![image](https://github.com/user-attachments/assets/76c81894-01f2-4010-a604-6db532035950)
 
+### 배터리 팩 주요 역할
+1. 배터리 셀 전압, 전류 및 온도의 모니터링
+2. SOC 계산
+3. 배터리 시스템 진단
+4. 냉각 장치 제어
 
+## 충방전 시 이론
