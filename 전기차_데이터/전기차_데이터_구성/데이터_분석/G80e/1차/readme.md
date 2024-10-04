@@ -19,6 +19,7 @@
 - 대부분의 그래프 밖의 이상치들은 유형1과 2에 의해 발생한다.
   
 
-4. **유형3**
-![image](https://github.com/user-attachments/assets/989a953b-6ec9-4688-b37e-98bb9f8636c9)
+3. **유형3**
+![image](https://github.com/user-attachments/assets/3f51222d-e01b-4a2a-9d4c-b23b5770ef46)
+
 
