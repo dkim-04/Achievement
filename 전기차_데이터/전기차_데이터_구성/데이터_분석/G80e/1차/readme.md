@@ -42,6 +42,11 @@
 ![changed_M2210703938_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/e6c8340f-dcc9-48d0-8424-db76df71d4c0)
 ![changed_M2210703944_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/09f4383d-8a3f-40b0-9aa3-3a9c44b2da24)
 ![changed_M2210703945_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/0c5f52b1-b4d5-4062-9600-7df4876c0b4c)
+
+***위 그림이 이 유형의 가장 대표적인 예시이다.***
+- 위 그림의 경우 일반적인 값의 경우 90%-100%의 값이 존재하지 않고, 오류 유형으로써의 값만 존재한다.
+
+
 ![changed_M2210703946_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/ae0e4b4c-3a5e-4fef-be23-4663bc80c05f)
 ![changed_M2210703947_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/190c102e-0ab6-4840-8b55-7d0ced560b91)
 ![changed_M2210703948_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/f3b92e48-1582-470f-8983-c2fbf18b0522)
