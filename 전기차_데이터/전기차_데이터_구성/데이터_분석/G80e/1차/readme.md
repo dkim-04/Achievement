@@ -20,6 +20,7 @@
   
 
 3. **유형3**
+
 ![image](https://github.com/user-attachments/assets/3f51222d-e01b-4a2a-9d4c-b23b5770ef46)
 
 
