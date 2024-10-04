@@ -20,4 +20,5 @@
   
 
 4. **유형3**
-![image](https://github.com/user-attachments/assets/f70fa259-0c10-4c8e-8b00-d0610591ada5)
+![image](https://github.com/user-attachments/assets/989a953b-6ec9-4688-b37e-98bb9f8636c9)
+
