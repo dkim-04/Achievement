@@ -1,9 +1,11 @@
 # SOC에 따른 PACK(전류,전압) cell 평균 비교
 ## 분석
 1. 주행중일때
- - soc가 감소함에 따라 pack전압과 cell평균 전압은 일정하게 감소하고, pack전류는 일정하게 증가한다.
- - **급가속할 때(  
+   - soc가 감소함에 따라 pack전압과 cell평균 전압은 일정하게 감소하고, pack전류는 일정하게 증가한다.
+   - **급가속할 때(pack전압은 급격하게 감소하며 pack전류는 급격하게 증가하는 양상을 보인다.
+   - 주행상황에서의 속도 변화양상에 따라 전압과 전류가 변화하는 것을 확인할 수 있다.
 2. 충전중일때
+   - 
    
 ![moified_classified_M2210703802_with_values](https://github.com/user-attachments/assets/9553b556-171a-4ee5-94fa-f56d3e4224ce)
 ![moified_classified_M2210703864_with_values](https://github.com/user-attachments/assets/874c42e5-5742-4ddd-b74e-95fedd23e305)
