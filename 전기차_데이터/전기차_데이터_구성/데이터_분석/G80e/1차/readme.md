@@ -4,6 +4,7 @@
 ## 발생하는 오류 유형
 ### 1. **유형1**
 ![image](https://github.com/user-attachments/assets/ad4f0a2f-ea3f-4474-80dc-7399881b4221)
+
 위 그림처럼 특정 cell들이 0으로 표기되어 평균이 다른 cell들의 평균에 비해 낮은 상태로 나타나는 경우
 
 **특징**
@@ -13,6 +14,7 @@
 
 ### 2. **유형2**
 ![image](https://github.com/user-attachments/assets/2ca18b43-4a15-4027-80dc-ea0682043cfc)
+
 위 그림처럼 특정 cell들이 결측되어 평균이 다른 cell들의 평균에 비해 낮은 상태로 나타나는 경우
 
 **특징**
