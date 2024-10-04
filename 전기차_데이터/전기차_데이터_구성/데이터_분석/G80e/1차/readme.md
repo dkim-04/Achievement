@@ -35,6 +35,10 @@
 - 이 유형은 SOC가 (86%-100%)사이에서 발생하며, 평균 CELL은 최소 (2.5-2.6)사이에서 시작되며, 그 보다 낮은 수로는 나타나지 않는다
 - 그래프 유형은 아래의 원과 같이 나타난다.
 
+***기대***
+- 여러가지 조건을 종합한 결과, 이 유형의 경우 일정하게 발생하는데는 BMS가 일정하게 오류를 발생시키는 것으로 생각되고, 이를 통해 유형3의 경우의 값들을 제외하고 진행한다면 EV데이터 분석의 시간과 양을 단축시킬 수 있을 것이라고 생각된다.
+
+   
 ![changed_M221003864](https://github.com/user-attachments/assets/063e6ef4-fac5-408e-8e34-f3e04376a6e1)
 ![changed_M2210703932_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/c3e6475e-eb78-418c-b81c-a1ccd7dc4ff2)
 ![changed_M2210703934_soc_vs_voltage_scatter_10percent_intervals](https://github.com/user-attachments/assets/bb0045c6-1572-4b82-abf5-2df425251f84)
