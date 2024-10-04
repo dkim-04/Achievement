@@ -1,6 +1,9 @@
 # SOC에 따른 PACK(전류,전압) cell 평균 비교
 ## 분석
-1.
+1. 주행중일때
+  *1-2. 급가속할 때
+2. 충전중일때
+   
 ![moified_classified_M2210703802_with_values](https://github.com/user-attachments/assets/9553b556-171a-4ee5-94fa-f56d3e4224ce)
 ![moified_classified_M2210703864_with_values](https://github.com/user-attachments/assets/874c42e5-5742-4ddd-b74e-95fedd23e305)
 ![moified_classified_M2210703932_with_values](https://github.com/user-attachments/assets/21e4ff45-0a33-4973-9cc4-968b16f070a7)
