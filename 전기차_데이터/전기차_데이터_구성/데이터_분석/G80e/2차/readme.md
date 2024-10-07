@@ -5,7 +5,7 @@
    - **급가속할 때(pack전압은 급격하게 감소하며 pack전류는 급격하게 증가하는 양상을 보인다.)
    - 주행상황에서의 속도 변화양상에 따라 전압과 전류가 변화하는 것을 확인할 수 있다.
 2. 충전중일때
-   - pack전압, cell평균 전압 일정하게 증가, pack전류 증가
+   - pack전압, cell평균 전압  증가, pack전류 증가
    
 ![moified_classified_M2210703802_with_values](https://github.com/user-attachments/assets/b583a128-4f97-4c84-89eb-e39639870968)
 ![moified_classified_M2210703864_with_values](https://github.com/user-attachments/assets/2058683e-ab5e-421a-851a-203f44be509e)
