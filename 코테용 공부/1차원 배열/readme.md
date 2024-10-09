@@ -72,4 +72,4 @@ for i in range(q): # q개의 질의 반복
         for j in range(qq[1], qq[2]+1):
             print(nn[j-1],end=' ')
         print()
-    ```
+```
