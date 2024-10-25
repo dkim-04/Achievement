@@ -1,6 +1,6 @@
 import pandas as pd 
 import os
-
+import subprocess
 def count_nan_rows_in_multiple_columns(root_folder, column_prefix, column_range, chunk_size=10000):
     nan_row_count = 0
     transition_count = 0
