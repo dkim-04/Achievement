@@ -1,16 +1,15 @@
-```
 import pandas as pd
 import os
 import subprocess
 
-def fetch_files_from_server(server_address, server_port, remote_path, local_path):
-    # 서버에서 파일을 로컬로 복사
-    scp_command = f"scp -P {server_port} {server_address}:{remote_path} {local_path}"
+def fetch_folder_from_server(server_address, server_port, remote_folder_path, local_folder_path):
+    # 서버에서 폴더를 로컬로 복사
+    scp_command = f"scp -r -P {server_port} {server_address}:{remote_folder_path} {local_folder_path}"
     try:
         subprocess.run(scp_command, shell=True, check=True)
-        print(f"파일 복사 완료: {remote_path} -> {local_path}")
+        print(f"폴더 복사 완료: {remote_folder_path} -> {local_folder_path}")
     except subprocess.CalledProcessError as e:
-        print(f"파일 복사 중 오류 발생: {e}")
+        print(f"폴더 복사 중 오류 발생: {e}")
 
 def divide_large_file_to_small_files(root_folder_path, output_folder_path, columns_to_exclude):   
     # 출력 폴더가 존재하지 않으면 생성
@@ -22,11 +21,12 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path, colum
         for filename in filenames:
             if filename.lower().endswith('.csv'):
                 full_path = os.path.join(folder_path, filename)
-                csv_files.append(full_path)
+                relative_path=os.path.relpath(full_path,root_folder_path)
+                csv_files.append((full_path,relative_path))
     
     # 각 CSV 파일에 대해 새로운 폴더 생성 및 파일 나누기
-    for file_path in csv_files:
-        relative_folder = os.path.relpath(os.path.dirname(file_path), root_folder_path)
+    for file_path, relative_path in csv_files:
+        relative_folder = os.path.dirname(relative_path)
         new_folder_path = os.path.join(output_folder_path, relative_folder, os.path.basename(file_path).replace('.csv', ''))
         
         if not os.path.exists(new_folder_path):
@@ -56,17 +56,17 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path, colum
             print(f"파일 처리 중 오류 발생: {e}")
 
 # 사용자 입력을 통해 서버 정보와 경로 설정
-server_address = input("서버 주소를 입력하세요 (예: dkim04@bigsoft.iptime.org): ")
-server_port = input("서버 포트를 입력하세요 (예: 7773): ")
-remote_path = input("서버의 파일 경로를 입력하세요 (예: /remote/path/to/csv/file.csv): ")
-local_path = input("로컬 폴더 경로를 입력하세요 (예: /mnt/disk/disk02/sk_origin/): ")
+server_address = input("서버 주소를 입력하세요: ")
+server_port = input("서버 포트를 입력하세요: ")
+remote_folder_path = input("서버의 폴더 경로를 입력하세요: ")
+local_folder_path = input("로컬 폴더 경로를 입력하세요: ")
 
-# 서버에서 파일을 로컬로 가져오기
-fetch_files_from_server(server_address, server_port, remote_path, local_path)
+# 서버에서 폴더를 로컬로 가져오기
+fetch_folder_from_server(server_address, server_port, remote_folder_path, local_folder_path)
 
 # 나머지 처리
-root_folder_path = local_path
-output_folder_path = '/mnt/disk/disk02/divided_sk_car/'
+root_folder_path = local_folder_path
+output_folder_path = input("출력 폴더 경로를 입력하세요:")
 # 제외할 열 리스트 설정 (예시: 'column_to_exclude' 열 제외)
 columns_to_exclude = ['B_MAX_TEMP_MODUL_NO','B_MIN_TEMP_MODUL_NO','B_MAX_TEMP_PACK_NO','B_MIN_TEMP_PACK_NO','b_accum_recover_brake_quan','B_ASSIST_BATT_VOLT','B_INVERTER_CAPA_VOLT','B_MOTER_RPM'
 ,'B_HEATER1_TEMP','B_MAX_HEAT_CELL_NO','b_cell_balance_sts','b_cell_balance_cnt','b_slow_charg_cnt','b_fast_charg_cnt','b_accum_slow_charg_energy','b_accum_fast_charg_energy',
