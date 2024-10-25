@@ -1,7 +1,18 @@
-import pandas as pd 
+```
+import pandas as pd
 import os
+import subprocess
 
-def divide_large_file_to_small_files(root_folder_path, output_folder_path):   
+def fetch_files_from_server(server_address, server_port, remote_path, local_path):
+    # 서버에서 파일을 로컬로 복사
+    scp_command = f"scp -P {server_port} {server_address}:{remote_path} {local_path}"
+    try:
+        subprocess.run(scp_command, shell=True, check=True)
+        print(f"파일 복사 완료: {remote_path} -> {local_path}")
+    except subprocess.CalledProcessError as e:
+        print(f"파일 복사 중 오류 발생: {e}")
+
+def divide_large_file_to_small_files(root_folder_path, output_folder_path, columns_to_exclude):   
     # 출력 폴더가 존재하지 않으면 생성
     os.makedirs(output_folder_path, exist_ok=True)
     csv_files = []
@@ -15,11 +26,8 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path):
     
     # 각 CSV 파일에 대해 새로운 폴더 생성 및 파일 나누기
     for file_path in csv_files:
-         # 원본 파일의 폴더 경로에서 root_folder_path 부분을 제거하여 상대 경로 생성
         relative_folder = os.path.relpath(os.path.dirname(file_path), root_folder_path)
-        # output_folder_path에 상대 경로를 추가하여 새로운 폴더 경로 생성
         new_folder_path = os.path.join(output_folder_path, relative_folder, os.path.basename(file_path).replace('.csv', ''))
-        # 새로운 폴더가 존재하지 않으면 생성
         
         if not os.path.exists(new_folder_path):
             os.makedirs(new_folder_path)
@@ -27,23 +35,18 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path):
         else:
             print(f"폴더가 이미 존재합니다: {new_folder_path}")
         
-        # CSV 파일 읽기 및 나누기
         try:
-            # Chunk 단위로 CSV 파일 읽기
             chunk_size = 1000000
             chunk_number = 1
             
-            for chunk in pd.read_csv(file_path, chunksize=chunk_size,low_memory=False):
-                # 특정 열을 제외 (열 이름 리스트가 제공된 경우)
+            for chunk in pd.read_csv(file_path, chunksize=chunk_size, low_memory=False):
                 if columns_to_exclude:
-                    # 열 이름을 소문자로 변환하여 columns_to_exclude와 비교
                     columns_to_exclude_lower = [col.lower() for col in columns_to_exclude]
                     chunk = chunk.drop(columns=[col for col in chunk.columns if col.lower() in columns_to_exclude_lower], errors='ignore')
                 
-                chunk_file_name = f"{name}_part_{chunk_number}.csv"
+                chunk_file_name = f"{os.path.basename(file_path).replace('.csv', '')}_part_{chunk_number}.csv"
                 chunk_file_path = os.path.join(new_folder_path, chunk_file_name)
                 
-                # 분할된 파일 저장
                 chunk.to_csv(chunk_file_path, index=False)
                 print(f"파일 저장 완료: {chunk_file_path}")
                 
@@ -52,8 +55,17 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path):
         except Exception as e:
             print(f"파일 처리 중 오류 발생: {e}")
 
-# 경로 설정
-root_folder_path = '/mnt/disk/disk02/sk_origin/'
+# 사용자 입력을 통해 서버 정보와 경로 설정
+server_address = input("서버 주소를 입력하세요 (예: dkim04@bigsoft.iptime.org): ")
+server_port = input("서버 포트를 입력하세요 (예: 7773): ")
+remote_path = input("서버의 파일 경로를 입력하세요 (예: /remote/path/to/csv/file.csv): ")
+local_path = input("로컬 폴더 경로를 입력하세요 (예: /mnt/disk/disk02/sk_origin/): ")
+
+# 서버에서 파일을 로컬로 가져오기
+fetch_files_from_server(server_address, server_port, remote_path, local_path)
+
+# 나머지 처리
+root_folder_path = local_path
 output_folder_path = '/mnt/disk/disk02/divided_sk_car/'
 # 제외할 열 리스트 설정 (예시: 'column_to_exclude' 열 제외)
 columns_to_exclude = ['B_MAX_TEMP_MODUL_NO','B_MIN_TEMP_MODUL_NO','B_MAX_TEMP_PACK_NO','B_MIN_TEMP_PACK_NO','b_accum_recover_brake_quan','B_ASSIST_BATT_VOLT','B_INVERTER_CAPA_VOLT','B_MOTER_RPM'
@@ -70,3 +82,4 @@ columns_to_exclude = ['B_MAX_TEMP_MODUL_NO','B_MIN_TEMP_MODUL_NO','B_MAX_TEMP_PA
 
 # 함수 호출
 divide_large_file_to_small_files(root_folder_path, output_folder_path)
+```
