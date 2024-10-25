@@ -18,7 +18,7 @@
 - 수정된 오류율:약 31.8%
 # 2.divided_car
 ## 위치(우분투 환경)
-- /mnt/disk/disk02/divided_sk_car(1,2 다 같은 서버에 존재)
+- /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파일(우분투 환경)
 - 
 ## 데이터 정보
