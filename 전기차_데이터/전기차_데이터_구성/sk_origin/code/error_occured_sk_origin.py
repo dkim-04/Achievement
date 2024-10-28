@@ -31,9 +31,9 @@ def count_nan_rows_in_multiple_columns_on_remote(host, port, username, password,
     # SSH 서버 연결
     ssh = connect_to_server(host, port, username, password)
     try:
-    ssh.exec_command('echo Connection Successful')
+        ssh.exec_command('echo Connection Successful')
     except Exception as e:
-    print(f"SSH connection test failed: {e}")
+        print(f"SSH connection test failed: {e}")
     # 열 이름 리스트 생성
     columns_lower = [f"{column_prefix.lower()}{i}_{column_suffix.lower()}" for i in range(1, column_range + 1)]
     columns_upper = [f"{column_prefix.upper()}{i}_{column_suffix.upper()}" for i in range(1, column_range + 1)]
