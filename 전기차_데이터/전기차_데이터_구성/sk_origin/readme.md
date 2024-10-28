@@ -26,6 +26,12 @@ du -sh /mnt/disk/disk02/sk_origin
 find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
 ```
 - 전체 라인 갯수
+
+```markdown
+```bash
+python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
+```
+- 오류 라인 측정
 ### 데이터 정보
 - 라인 수: 8억 5872만 1470라인
 - csv_파일 수: 309개
@@ -45,17 +51,34 @@ find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l
 ## 실행 파이썬 파일(우분투 환경)
 - [원격 서버로 이동해 처리](https://github.com/dkim-04/Achievement/blob/5737ba8139280b7697f59e6c8fa652f8c1dc6126/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/error_occured_sk_divided.py)
 
-## sh을 통해 접근 
+## sh을 통해 접근 및 실행
 ```markdown
 ```bash
-ssh <username>@<서버 ip 주소> -p<포트번호>
-## sh에서 폴더 용량 체크,파일 갯수,라인 갯수 찾기
-```markdown
-```bash
-find /mnt/disk/disk02/divided_sk_car -name "*.csv" | wc -l # csv파일 갯수
-du -sh /mnt/disk/disk02/divided_sk_car # 전체 용량 확인
-find /mnt/disk/disk02/divided_sk_car -name "*.csv" -exec cat {} + | wc -l  # 전체 라인 갯수
 
+ssh <username>@<서버 ip 주소> -p<포트번호>
+```
+- 외부 서버로 접근
+```markdown
+```bash
+find /mnt/disk/disk02/divided_sk_car -name "*.csv" | wc -l 
+```
+- csv파일 갯수
+```markdown
+```bash
+du -sh /mnt/disk/disk02/divided_sk_car
+```
+- 전체 용량 확인
+```markdown
+```bash
+find /mnt/disk/disk02/divided_sk_car -name "*.csv" -exec cat {} + | wc -l 
+```
+- 전체 라인 갯수
+
+```markdown
+```bash
+python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_divided.py
+```
+- 오류 라인 측정
 ### 데이터 정보
 - 라인 수: 8억 5872만 2082라인(612라인 증가_이유는 아직 모름-(데이터 분석 후)파일이 306개 늘었는데 이로 인해 파일이 파일마다 끝항 첫항이 한 개씩 더 복제 되서 생긴 것)
 - csv_파일 수: 615(306개 증가) 100만 라인씩 나눔
