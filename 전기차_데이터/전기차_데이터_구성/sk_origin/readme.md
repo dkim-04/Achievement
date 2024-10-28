@@ -100,6 +100,6 @@ python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_divided.py
 
 
 
-# sk_origin을 divied_car로 전처리하기
+# sk_origin을 divided_car로 전처리하기
 ## 실행하는 파이썬 스크립튼(우분투 버전), (외부 환경에서 로컬로)/ 외부 환경만 이용한 버전은 만드는 중
 - [sk_origin을 100만 라인씩 전처리](https://github.com/dkim-04/Achievement/blob/3b961503e731cbc400c5178d289efc1cff657017/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/division_large_file_sk.py)
