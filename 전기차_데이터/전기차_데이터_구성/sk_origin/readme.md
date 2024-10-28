@@ -7,7 +7,6 @@
 ## sh을 통해 접근 및 실행
 ```markdown
 ```bash
-#!/bin/bash
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
 ### 데이터 정보
