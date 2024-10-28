@@ -2,7 +2,7 @@
 ## 위치(우분투 환경)
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)
--[]()
+-[원격 서버로 이용해 처리](https://github.com/dkim-04/Achievement/blob/e4cf1a66e88a60053bd241e9ea7364be9d225b85/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/error_occured_sk_origin.py)
 ## 데이터 정보
 - 라인 수: 8억 5872만 1470라인
 - csv_파일 수: 309개
