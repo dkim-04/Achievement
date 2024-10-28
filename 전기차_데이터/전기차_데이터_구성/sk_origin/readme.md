@@ -7,22 +7,22 @@
 ## sh을 통해 접근 및 실행
 ```markdown
 ```bash
-#!/bin/bash
+
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
 - 외부 서버로 접근
 ```markdown
-bash
+```bash
 find /mnt/disk/disk02/sk_origin -name "*.csv" | wc -l 
 ```
 - csv파일 갯수
 ```markdown
-bash
+```bash
 du -sh /mnt/disk/disk02/sk_origin 
 ```
 - 전체 용량 확인
 ```markdown
-bash
+```bash
 find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
 ```
 - 전체 라인 갯수
