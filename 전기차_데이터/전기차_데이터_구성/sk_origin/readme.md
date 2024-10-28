@@ -4,12 +4,12 @@
 ## 실행 파이썬 파일(우분투 환경)
 -[원격 서버로 이용해 처리](https://github.com/dkim-04/Achievement/blob/e4cf1a66e88a60053bd241e9ea7364be9d225b85/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/error_occured_sk_origin.py)
 
-## sh을 통해 접근 
+## sh을 통해 접근 및 실행
 ```markdown
 bash
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
-- sh에서 폴더 용량 체크,파일 갯수,라인 갯수 찾기
+- 외부 서버로 접근
 ```markdown
 bash
 find /mnt/disk/disk02/sk_origin -name "*.csv" | wc -l 
