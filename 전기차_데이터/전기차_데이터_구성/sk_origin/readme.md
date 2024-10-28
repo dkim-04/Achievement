@@ -22,7 +22,7 @@ du -sh /mnt/disk/disk02/sk_origin
 - 전체 용량 확인
 ```markdown
 bash
-find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l  # 전체 라인 갯수
+find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
 ```
 - 전체 라인 갯수
 ### 데이터 정보
