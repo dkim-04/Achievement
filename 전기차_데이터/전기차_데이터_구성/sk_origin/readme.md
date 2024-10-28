@@ -6,18 +6,13 @@
 
 ## sh을 통해 접근 
 ```markdown
-```bash
+bash
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ## sh에서 폴더 용량 체크,파일 갯수,라인 갯수 찾기
-```markdown
-```bash
 find /mnt/disk/disk02/sk_origin -name "*.csv" | wc -l # csv파일 갯수
-```markdown
-```bash
 du -sh /mnt/disk/disk02/sk_origin # 전체 용량 확인
-```markdown
-```bash
 find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l  # 전체 라인 갯수
+```
 ### 데이터 정보
 - 라인 수: 8억 5872만 1470라인
 - csv_파일 수: 309개
