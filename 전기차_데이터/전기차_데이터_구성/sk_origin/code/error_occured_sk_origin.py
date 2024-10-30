@@ -4,35 +4,25 @@ import gc  # 가비지 컬렉션을 위해 추가
 import time  # 시간 측정을 위해 추가
 import paramiko
 
-def connect_to_server(host, port, username, password, retries=4, delay=3):
+def connect_to_server(host, port, username, password):
     """원격 서버에 SSH 연결"""
-    """원격 서버에 SSH 연결을 재시도 가능하게 설정"""
-    for attempt in range(retries):
-        try:
-            ssh = paramiko.SSHClient()
-            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            ssh.connect(host, port=port, username=username, password=password)
-            print('ssh 연결 성공')
-            return ssh
-        except Exception as e:
-            print(f"SSH 연결 실패: {e}. {delay}초 후 재시도 ({attempt + 1}/{retries})...")
-            time.sleep(delay)
-    raise ConnectionError("SSH 연결을 수립하지 못했습니다.")
+    ssh = paramiko.SSHClient()
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    ssh.connect(host, port=port, username=username, password=password)
+    return ssh
 
-def read_remote_csv(ssh, remote_path, columns, chunk_size, reconnect_attempts=4):
+def read_remote_csv(ssh, remote_path, columns, chunk_size):
     """원격 서버에서 CSV 파일을 청크 단위로 읽어오기"""
-    attempts = 0
-    while attempts < reconnect_attempts:
-        try:
-            sftp = ssh.open_sftp()
-            with sftp.open(remote_path, 'r') as remote_file:
-                while True:
-                    chunk = pd.read_csv(remote_file, usecols=columns, chunksize=chunk_size)
-                    if chunk.empty:
-                        break
-                    yield chunk.astype('float32')
-        finally:
-            sftp.close()
+    sftp = ssh.open_sftp()
+    try:
+        with sftp.open(remote_path, 'r') as remote_file:
+            while True:
+                chunk = pd.read_csv(remote_file, usecols=columns, chunksize=chunk_size)
+                if chunk.empty:
+                    break
+                yield chunk.astype('float32')
+    finally:
+        sftp.close()
 
 def count_nan_rows_in_multiple_columns_on_remote(host, port, username, password, root_folder, column_prefix, column_suffix, column_range, chunk_size=10000):
     start_time = time.time()
