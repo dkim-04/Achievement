@@ -11,8 +11,8 @@ bridge-mode란?
 - 이를 통해 브리지 네트워크 내에서 실행 중인 서비스에 외부 네트워크에서 접근이 가능함
 
 ## 대표적 커맨드 대상
-Docker
-├── container
-├── image
-├── volume
-└── network
+- Docker
+  - container
+  - image
+  - volume
+  - network
