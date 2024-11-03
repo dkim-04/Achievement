@@ -5,6 +5,7 @@
 -[원격 서버로 접속해 처리](https://github.com/dkim-04/Achievement/blob/e4cf1a66e88a60053bd241e9ea7364be9d225b85/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/error_occured_sk_origin.py)
 ## sk_origin 폴더를 전처리 후 10000만개씩 파케이 파일로 전환
 - 4시간 10분 46초
+- 50G
 
   **장점**
     - 원래 전처리만 진행했을 때 파일 크기들은 405G였으나 50G까지 줄일 수 있었다
