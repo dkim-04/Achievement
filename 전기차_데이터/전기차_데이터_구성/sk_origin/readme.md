@@ -3,7 +3,13 @@
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)
 -[원격 서버로 접속해 처리](https://github.com/dkim-04/Achievement/blob/e4cf1a66e88a60053bd241e9ea7364be9d225b85/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0/%EC%A0%84%EA%B8%B0%EC%B0%A8_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EA%B5%AC%EC%84%B1/sk_origin/code/error_occured_sk_origin.py)
+## sk_origin 폴더를 전처리 후 10000만개씩 파케이 파일로 전환
+- 4시간 10분 46초
 
+  **장점**
+    - 원래 전처리만 진행했을 때 파일 크기들은 405G였으나 50G까지 줄일 수 있었다
+    - 10000개씩 나누어 놓았으므로 읽고 처리하는 속도가 더 빠르게 될것으로 예상(자기 전에 실험 데이터를 돌려서 확인 작업 필요)
+    - 인코딩 방식에서 문제가 생길 수 있으므로 라인들이 어떤 형식으로 이루어져 있는지 확인 필요(코드 만들 예정)
 ## sh을 통해 접근 및 실행
 ```markdown
 ssh <username>@<서버 ip 주소> -p<포트번호>
