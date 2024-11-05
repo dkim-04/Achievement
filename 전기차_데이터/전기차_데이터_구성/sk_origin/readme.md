@@ -10,8 +10,7 @@
     - 원래 전처리만 진행했을 때 파일 크기들은 405G였으나 50G까지 줄일 수 있었다
     - 10000개씩 나누어 놓았으므로 읽고 처리하는 속도가 더 빠르게 될것으로 예상(압축시킨 인코딩을 디코딩할 때 발생하는 압축 해제 속도가 많이 느리므로 이를 해결할 방법을 찾기 전까지는 csv파일로 진행할 예정
 
-## 병렬 처리
-- 현재 dask df를 통해 진행하려고 하고 있다.(월별로 나누고 SOH비교하는 작업이 다 끝나면 진행할 예정)
+
 ## sh을 통해 접근 및 실행
 ```markdown
 #외부 서버로 접근
@@ -61,26 +60,30 @@ python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 
 ## sh을 통해 접근 및 실행
 ```markdown
+#외부 서버로 접근
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
-- 외부 서버로 접근
-```markdown
-find /mnt/disk/disk02/divided_sk_car -name "*.csv" | wc -l 
-```
-- csv파일 갯수
-```markdown
-du -sh /mnt/disk/disk02/divided_sk_car
-```
-- 전체 용량 확인
-```markdown
-find /mnt/disk/disk02/divided_sk_car -name "*.csv" -exec cat {} + | wc -l 
-```
-- 전체 라인 갯수
 
 ```markdown
+#csv파일 갯수
+find /mnt/disk/disk02/divided_sk_car -name "*.csv" | wc -l 
+```
+
+```markdown
+#전체 용량 확인
+du -sh /mnt/disk/disk02/divided_sk_car
+```
+
+```markdown
+#전체 라인 갯수
+find /mnt/disk/disk02/divided_sk_car -name "*.csv" -exec cat {} + | wc -l 
+```
+
+```markdown
+#오류 라인 측정
 python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_divided.py
 ```
-- 오류 라인 측정
+
 ### 데이터 정보
   (이 문제는 수치에 유의미하게 영향을 끼치지 않기 때문에 무시하고 갈 수 있다고 판단)
 - (수정된 오류 라인 수): 2억 7315만 4023라인(75개 차이남)
