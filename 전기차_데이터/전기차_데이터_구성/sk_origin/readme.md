@@ -1,4 +1,4 @@
-# 1.sk_origin 
+# 1.sk_origin
 ## 위치(우분투 환경)
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)
