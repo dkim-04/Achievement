@@ -19,22 +19,24 @@ ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
 
 ```markdown
+#csv파일 갯수
 find /mnt/disk/disk02/sk_origin -name "*.csv" | wc -l 
 ```
-- csv파일 갯수
-```markdown
-du -sh /mnt/disk/disk02/sk_origin 
-```
-- 전체 용량 확인
-```markdown
-find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
-```
-- 전체 라인 갯수
 
 ```markdown
+#전체 용량 확인
+du -sh /mnt/disk/disk02/sk_origin 
+```
+
+```markdown
+#전체 라인 갯수
+find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
+```
+
+```markdown
+#오류 라인 측정
 python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 ```
-- 오류 라인 측정
 ### 데이터 정보
 | 구분  | 전체 라인 수 |csv_파일 수| 파일 용량 | 결측치 오류만 포함한 오류 라인 수 | 유형 2번까지 포함한 오류 라인 수 | 결측치의 오류만의 오류율 | 유형 2번 포함한 오류율 |
 |:-----------|:--------------|:------------|:-----------|:-------------------------------|:--------------------------------|:------------------------|:----------------------|
