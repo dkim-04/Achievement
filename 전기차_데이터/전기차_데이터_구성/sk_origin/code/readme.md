@@ -16,7 +16,7 @@ rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_orig
 * 파일 저장 완료: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car/preprocessing/sk_2307_origin/sk_2307_origin_part_(1~95).csv
 * 총 걸린 시간: 0.0시간 8.0분 20.164480924606323초
 
-## error_occured_sk_origin.py
+## line_data.py
 - 로컬로 옮겨진 파일들의 전체 라인수와 오류 라인 수 측정 및 오류율 계산
 - 이후 extract_sk_car.py로 나뉘어진 전체 라인 수 출력
 **실행 결과**
