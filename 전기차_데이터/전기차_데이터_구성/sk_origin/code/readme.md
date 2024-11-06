@@ -19,4 +19,14 @@ rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_orig
 ## line_data.py
 - 로컬로 옮겨진 파일들의 전체 라인수와 오류 라인 수 측정 및 오류율 계산
 - 이후 extract_sk_car.py로 나뉘어진 전체 라인 수 출력
+
 **실행 결과**
+* Processing file: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car/sk_2307_origin.csv
+* total rows before preprocess: 4702169
+* Total rows with issues before preprocess: 3004258
+* Total time taken before preprocess: 186.97 seconds
+
+* Processing file: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing/sk_2307_origin/sk_2307_origin_part_95.csv
+* total rows after preprocess: 2408338
+* Total rows with issues after preprocess: 0
+* Total time taken after preprocess: 66.74 seconds
