@@ -13,7 +13,7 @@ rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_orig
 - 걸린 시간:8분 20초
 
 **실행 결과**
-* 파일 저장 완료: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car/preprocessing/sk_2307_origin/sk_2307_origin_part_(1~95).csv
+* 파일 저장 완료: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing/sk_2307_origin/sk_2307_origin_part_(1~95).csv
 * 총 걸린 시간: 0.0시간 8.0분 20.164480924606323초
 
 ## line_data.py
