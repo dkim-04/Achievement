@@ -71,7 +71,7 @@ def divide_large_file_to_small_files(root_folder_path, output_folder_path):
 
 # 경로 설정
 root_folder_path = '/mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car'
-output_folder_path = '/mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car/preprocessing'
+output_folder_path = '/mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing'
 columns_to_include=[
 'DEV_ID','COLL_DT','B_SOC','B_SOH','B_PACK_CURRENT','B_PACK_VOLT','B_MAX_TEMP','B_SLOW_CHARG_CON_STS','B_FAST_CHARG_CON_STS',*[f"B_CELL{i}_VOLT" for i in range(1,181)]
 ]
