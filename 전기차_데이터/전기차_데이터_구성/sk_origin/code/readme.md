@@ -1,5 +1,6 @@
 # 코드 내용 
 ## sk_origin에서 로컬로 데이터 파일 이동시키기
+**EX)**
 ```bash
 rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_origin/sk_2307_origin/sk_2307_origin.csv /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car
 ```
