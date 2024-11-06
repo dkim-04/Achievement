@@ -22,11 +22,11 @@ rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_orig
 
 **실행 결과**
 * Processing file: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car/sk_2307_origin.csv
-* total rows before preprocess: 4702169
-* Total rows with issues before preprocess: 3004258
-* Total time taken before preprocess: 186.97 seconds
+* Total rows before preprocess: 4702169
+* Total rows with issues before preprocess: 2293831
+* Total time taken before preprocess: 178.37 seconds
 
-* Processing file: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing/sk_2307_origin/sk_2307_origin_part_95.csv
-* total rows after preprocess: 2408338
+* Processing file: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing/sk_2307_origin/sk_2307_origin_part_(1~95).csv
+* Total rows after preprocess: 2408338
 * Total rows with issues after preprocess: 0
-* Total time taken after preprocess: 66.74 seconds
+* Total time taken after preprocess: 63.79 seconds
