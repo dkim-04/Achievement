@@ -2,7 +2,7 @@
 ## 위치(우분투 환경)
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)(sample_file)
--[원격 서버에서 복사해 로컬에서 전처리]()
+-[원격 서버에서 복사해 로컬에서 전처리](https://github.com/dkim-04/Achievement/blob/c06058f6efd52ee7174c6285cd775114a688c704/ev_data/ev_data_component/sk_origin/code/readme.md)
 ## sk_origin 폴더를 전처리 후 10000만개씩 파케이 파일로 전환
 - 4시간 10분 46초
 - 50G
@@ -12,27 +12,27 @@
 
 ## sh을 통해 접근 및 실행
 ```markdown
-#외부 서버로 접근
+#1. 외부 서버로 접근
 ssh <username>@<서버 ip 주소> -p<포트번호>
 ```
 
 ```markdown
-#csv파일 갯수
+#2. sK_origin 전체 csv파일 갯수
 find /mnt/disk/disk02/sk_origin -name "*.csv" | wc -l 
 ```
 
 ```markdown
-#전체 용량 확인
+#3. sk_origin 전체 용량 확인
 du -sh /mnt/disk/disk02/sk_origin 
 ```
 
 ```markdown
-#전체 라인 갯수
+#4. sk_origin의 전체 라인의 갯수
 find /mnt/disk/disk02/sk_origin -name "*.csv" -exec cat {} + | wc -l 
 ```
 
 ```markdown
-#오류 라인 측정
+#5. sk_origin의 오류 라인 측정
 python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 ```
 ### 데이터 정보
@@ -41,14 +41,8 @@ python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 | sk_origin |8억 5872만 1470|  309개      |   638G     |     2억 561만 1344라인          |  2억 7315만 4098라인            |약 23.9%(시간:3시간 32분)|약 31.8%(시간:3시간 33분)|
 |divided_sk  |8억 5872만 2082|  615개      |   405G     |     2억 561만 1344라인          |  2억 7315만 4023라인            |약 23.9%(시간:3시간 8분)|약 31.8%(시간:1시간 49분)|
 |parquet_divided|8억 5872만 1470|...|50G|| |||
-- 결측치의 오류만 계산했을 때의 오류 라인 수: 2억 561만 1344라인
-  (오류율 찾아내는데 걸린 시간= 3시간 32분 17초)
-- 유형 2까지 포함했을 때 나타난 오류 라인 수: 2억 7315만 4098라인
-  (1번 유형인 결측치만 포함했을 때 ,3번에서도 결측치가 포함되는 경우가 대다수이므로 3번 유형도 포함되어 있다고 볼 수 있다.)
-- (수정된 오류 라인수): 2억 7315만 4098라인
-  (걸린 시간): 3시간 33분 29초
-- 유형 2를 포함했을 때의 오류율: 약 26.7%
-- 수정된 오류율:약 31.8%
+
+ 
 # 2.divided_car
 ## 위치(우분투 환경)
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
