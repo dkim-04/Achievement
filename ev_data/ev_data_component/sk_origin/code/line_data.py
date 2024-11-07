@@ -91,5 +91,6 @@ column_prefix = 'B_CELL'  # 열 이름의 접두사
 column_suffix = 'VOLT'  # 열 이름의 접미사
 column_range = 180  # 열의 수
 after_folder='/mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing'
-count_nan_rows_in_multiple_columns_before(root_folder, column_prefix, column_suffix, column_range)
-count_nan_rows_in_multiple_columns_after(after_folder,column_prefix,column_suffix,column_range)
+if __name__=="__main__":
+    count_nan_rows_in_multiple_columns_before(root_folder, column_prefix, column_suffix, column_range)
+    count_nan_rows_in_multiple_columns_after(after_folder,column_prefix,column_suffix,column_range)
