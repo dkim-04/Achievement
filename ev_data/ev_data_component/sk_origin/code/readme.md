@@ -2,7 +2,7 @@
 ## sk_origin에서 로컬로 데이터 파일 이동시키기
 **EX)**: 터미널의 아래의 코드를 입력해 로컬로 복사
 ```bash
-rsync -avzh -e "ssh -p 7773"  dkim04@bigsoft.iptime.org:/mnt/disk/disk02/sk_origin/sk_2307_origin/sk_2307_origin.csv /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car
+rsync -avzh -e "ssh -p 7773"  dkim04@<서버_IP>:/mnt/disk/disk02/sk_origin/sk_2307_origin/sk_2307_origin.csv /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car
 ```
 
 ## extract_sk_car.py
