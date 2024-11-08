@@ -4,7 +4,7 @@
 ```bash
 rsync -avzh -e "ssh -p 7773"  dkim04@<서버_IP>:/mnt/disk/disk02/sk_origin/sk_2307_origin/sk_2307_origin.csv /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/divided_sk_car
 ```
-
+- sample_file 용량: 6.04G
 ## extract_sk_car.py
 -  로컬에 특정 폴더로 옮겨진 모든 csv파이들을 5만 라인씩 나눈 후 필요 열만 추출
 -  B_cell(1~180)_Volt열에 대해 비교 연산 수행
