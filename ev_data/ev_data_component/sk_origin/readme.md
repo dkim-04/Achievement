@@ -50,7 +50,7 @@ python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 
 ## 실행 파이썬 파일(우분투 환경)
-- [원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/23535d4aa4b87a5f70dc7b9bfbf68d77ac62d216/ev_data/ev_data_component/sk_origin/code/readme.md)
+- [원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/a38e994a89be4e840c2532f7b272af703a39e55f/ev_data/ev_data_component/sk_origin/code/readme.md)
 - 1시간 49분 37초
 
 ## sh을 통해 접근 및 실행
