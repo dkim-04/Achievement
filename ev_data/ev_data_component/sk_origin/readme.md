@@ -10,8 +10,7 @@
 ## 위치(우분투 환경)
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)(sample_file)
--[원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/23535d4aa4b87a5f70dc7b9bfbf68d77ac62d216/ev_data/ev_data_component/sk_origin/code/readme.md)
-
+-[원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/f21b7dbc51d84c398a868fcdb301b152c3357b88/ev_data/ev_data_component/sk_origin/code/readme.md)
 ## sk_origin(전체)폴더를 전처리 후 10000만개씩 파케이 파일로 전환
 - 4시간 10분 46초
 - 50G
@@ -50,7 +49,7 @@ python3 /mnt/disk/disk02/sk_data_code/error_occurred_sk_origin.py
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 
 ## 실행 파이썬 파일(우분투 환경)
-- [원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/a38e994a89be4e840c2532f7b272af703a39e55f/ev_data/ev_data_component/sk_origin/code/readme.md)
+- [원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/f21b7dbc51d84c398a868fcdb301b152c3357b88/ev_data/ev_data_component/sk_origin/code/readme.md)
 - 1시간 49분 37초
 
 ## sh을 통해 접근 및 실행
