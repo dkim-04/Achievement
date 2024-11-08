@@ -1,4 +1,7 @@
 # 코드 내용 
+```#!bin/bash
+ssh dkim04@bigsoft.iptime.org -p 7773
+```
 ## sk_origin에서 로컬로 데이터 파일 이동시키기
 **EX)**: 터미널의 아래의 코드를 입력해 로컬로 복사
 ```bash
