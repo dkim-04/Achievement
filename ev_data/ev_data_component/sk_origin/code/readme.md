@@ -14,7 +14,7 @@ rsync -avzh -e "ssh -p 7773"  dkim04@<서버_IP>:/mnt/disk/disk02/sk_origin/sk_2
 
 **실행 결과**
 * 파일 저장 완료: /mnt/c/Users/kim/P_Ver1/car_data/sk_car_data/sk_origin/preprocessing/sk_2307_origin/sk_2307_origin_part_(1~95).csv
-* 총 걸린 시간: 0.0시간 8.0분 20.164480924606323초
+* 총 걸린 시간: 0.0시간 8.0분 20.164초
 
 ## line_data.py
 - 로컬로 옮겨진 파일들의 전체 라인수와 오류 라인 수 측정 및 오류율 계산
