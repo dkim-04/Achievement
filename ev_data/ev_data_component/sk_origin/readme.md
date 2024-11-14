@@ -11,11 +11,11 @@
 - /mnt/disk/disk02/divided_sk_car(1,2 같은 서버에 존재)
 ## 실행 파이썬 파일(우분투 환경)(sample_file)
 -[원격 서버에서 로컬로 복사해 전처리](https://github.com/dkim-04/Achievement/blob/f21b7dbc51d84c398a868fcdb301b152c3357b88/ev_data/ev_data_component/sk_origin/code/readme.md)
-## sk_origin(전체)폴더를 전처리 후 10000만개씩 파케이 파일로 전환
+## sk_origin(전체)폴더를 전처리 후 100만개씩 파케이 파일로 전환
 - 4시간 10분 46초
 - 50G
 - 파케이 파일을 디코딩해서 읽는 데 8시간 이상을 소비하여도 매우 오래 걸리는 것을 확인하여 정지
-- 용량을 줄이는 데는 유용하나 데이터를 처리하는 데 아직 pandas df으로는 매우 느린 것을 알 수 있음 
+- 용량을 줄이는 데는 유용하나 데이터를 처리하는 데 아직 pandas df으로는 읽는 속도가 매우 느린 것을 알 수 있음 
 
 
 ## sh을 통해 접근 및 실행
