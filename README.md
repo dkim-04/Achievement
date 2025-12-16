@@ -12,8 +12,8 @@
 - 
 ## 4. python_concept_summary
 - 파이썬 개념 요약
-```
+
 ## 5. semicoductor_process
 - 전공정 과정 요약
-```
+- 저장용(아직은 사용X)
 
